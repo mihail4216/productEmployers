@@ -96,7 +96,9 @@ class HorizontalOrientation : Orientation() {
 }
 
 class VerticalOrientation() : Orientation() {
-    override var direction: Direction = if (Random.nextBoolean()) TopDirection() else DownDirection()
+    override var direction: Direction =
+        if (Random.nextBoolean()) TopDirection() else DownDirection()
+
     override fun changeDirection(model: ObjectModel) {
         direction = direction.oppositeDirection
     }

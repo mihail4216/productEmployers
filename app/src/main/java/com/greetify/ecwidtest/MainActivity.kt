@@ -1,11 +1,8 @@
 package com.greetify.ecwidtest
 
-import android.graphics.Paint
 import android.os.Bundle
-import android.view.SurfaceHolder
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
-import androidx.vectordrawable.graphics.drawable.ArgbEvaluator
 
 class MainActivity : AppCompatActivity() {
 

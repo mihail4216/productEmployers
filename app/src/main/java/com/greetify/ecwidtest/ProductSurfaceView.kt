@@ -150,6 +150,9 @@ class DrawThread() : Thread() {
         mArrayEmployeeObjects.add(WeakEmployeeModel())
     }
 
+    /**
+     * Поток создает продукты каждые 10 секунд
+     */
     private fun startThreadInitProductEvery10Sec() {
         Thread {
             while (isRunning) {
